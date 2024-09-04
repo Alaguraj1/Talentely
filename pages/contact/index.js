@@ -19,7 +19,7 @@ import HeaderStyleThree from "@/components/Header/HeaderStyle-Three";
 const ContactPage = () => {
   return (
     <>
-      <PageHead title="Contact - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Contact " />
 
       <Provider store={Store}>
         <Context>

@@ -21,7 +21,7 @@ import Video from "@/components/About-Us-02/Video";
 const AboutUsPageTwo = () => {
   return (
     <>
-      <PageHead title="About Us 02 - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="About Us 02 " />
 
       <Provider store={Store}>
         <Context>

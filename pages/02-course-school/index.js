@@ -14,7 +14,7 @@ import FooterFour from "@/components/Footer/FooterFour";
 const CourseSchoolPage = () => {
   return (
     <>
-      <PageHead title="Course School - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course School" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

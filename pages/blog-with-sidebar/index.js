@@ -16,7 +16,7 @@ const BlogSidebarLayout = () => {
   let getAllBlogs = JSON.parse(JSON.stringify(BlogData.blogList));
   return (
     <>
-      <PageHead title="Blog With Sidebar - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog With Sidebar" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

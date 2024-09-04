@@ -40,7 +40,7 @@ const SingleCourseTwo = () => {
 
   return (
     <>
-      <PageHead title="Course Filter Toggle - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter Toggle " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

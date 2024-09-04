@@ -38,7 +38,7 @@ const SingleGalleryFormat = () => {
 
   return (
     <>
-      <PageHead title="Post Gallery Format - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Post Gallery Format " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

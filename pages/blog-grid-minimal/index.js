@@ -28,7 +28,7 @@ const BlogGridMinimalLayout = () => {
 
   return (
     <>
-      <PageHead title="Blog Grid - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog Grid" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

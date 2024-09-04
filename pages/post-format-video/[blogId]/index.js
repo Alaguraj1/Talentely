@@ -38,7 +38,7 @@ const SinglePostFormatVideo = () => {
 
   return (
     <>
-      <PageHead title="Post Format Video - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Post Format Video " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

@@ -32,7 +32,7 @@ const SingleProfile = () => {
 
   return (
     <>
-      <PageHead title="Profile - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Profile " />
 
       <Provider store={Store}>
         <Context>

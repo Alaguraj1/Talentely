@@ -14,7 +14,7 @@ const ErrorPage = () => {
   return (
     <Provider store={Store}>
       <Context>
-        <PageHead title="Page not found - Online Courses & Education NEXTJS14 Template" />
+        <PageHead title="Page not found" />
         <HeaderStyleThree
           headerType="rbt-transparent-header"
           headerSticky="rbt-sticky"

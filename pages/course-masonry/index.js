@@ -35,7 +35,7 @@ const CourseMasonryLayout = () => {
 
   return (
     <>
-      <PageHead title="Course Masonry - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Masonry " />
 
       <Provider store={Store}>
         <Context>

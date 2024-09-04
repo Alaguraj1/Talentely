@@ -14,7 +14,7 @@ import FooterOne from "@/components/Footer/Footer-One";
 const CheckoutPage = () => {
   return (
     <>
-      <PageHead title="Checkout - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Checkout " />
 
       <Provider store={Store}>
         <Context>

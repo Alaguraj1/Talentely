@@ -17,7 +17,7 @@ import BackToTop from "@/pages/backToTop";
 const BrandPage = () => {
   return (
     <>
-      <PageHead title="Brand - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Brand " />
 
       <Provider store={Store}>
         <Context>

@@ -38,7 +38,7 @@ const SinglePostFormat = () => {
 
   return (
     <>
-      <PageHead title="Post Format Standard - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Post Format Standard " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

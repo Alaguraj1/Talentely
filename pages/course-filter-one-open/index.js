@@ -43,7 +43,7 @@ const CourseFilerOneOpenLayout = () => {
 
   return (
     <>
-      <PageHead title="Course Filter One Open - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter One Open " />
 
       <Provider store={Store}>
         <Context>

@@ -16,7 +16,7 @@ import BackToTop from "@/pages/backToTop";
 const page = () => {
   return (
     <>
-      <PageHead title="Split - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Split " />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />

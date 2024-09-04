@@ -33,7 +33,7 @@ const CourseTabLayout = () => {
   };
   return (
     <>
-      <PageHead title="Course With Tab One - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course With Tab One " />
 
       <Provider store={Store}>
         <Context>

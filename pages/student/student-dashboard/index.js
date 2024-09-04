@@ -16,7 +16,7 @@ import StudentDashboardSidebar from "@/components/Student/StudentDashboardSideba
 const StudentDashboard = () => {
   return (
     <>
-      <PageHead title="Student Dashboard - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Student Dashboard " />
 
       <Provider store={Store}>
         <Context>

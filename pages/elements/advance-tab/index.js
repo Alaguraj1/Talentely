@@ -19,7 +19,7 @@ import BackToTop from "@/pages/backToTop";
 const AdvanceTabPage = () => {
   return (
     <>
-      <PageHead title="Advance Tab - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Advance Tab " />
 
       <Provider store={Store}>
         <Context>

@@ -44,7 +44,7 @@ const CourseFilteTwoOpen = () => {
 
   return (
     <>
-      <PageHead title="Course Filter Two Open - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter Two Open " />
 
       <Provider store={Store}>
         <Context>

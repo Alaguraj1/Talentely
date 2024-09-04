@@ -14,7 +14,7 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 const InstagramPage = () => {
   return (
     <>
-      <PageHead title="Instagram - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Instagram " />
 
       <Provider store={Store}>
         <Context>

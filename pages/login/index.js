@@ -15,7 +15,7 @@ import { Provider } from "react-redux";
 const LoginPage = () => {
   return (
     <>
-      <PageHead title="Login & Register - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Login & Register " />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />

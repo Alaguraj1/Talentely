@@ -14,7 +14,7 @@ import Wishlist from "@/components/wishlist/Wishlist";
 const WishlistPage = () => {
   return (
     <>
-      <PageHead title="Wishlist - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Wishlist " />
 
       <Provider store={Store}>
         <Context>

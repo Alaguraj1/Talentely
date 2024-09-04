@@ -13,7 +13,7 @@ const LessonQuizLayout = () => {
 
   return (
     <>
-      <PageHead title="Lesson Quiz - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Lesson Quiz " />
 
       <div className="rbt-lesson-area bg-color-white">
         <div className="rbt-lesson-content-wrapper">

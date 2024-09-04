@@ -42,7 +42,7 @@ const CourseCardFourLayout = () => {
 
   return (
     <>
-      <PageHead title="Course Four - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Four " />
 
       <Provider store={Store}>
         <Context>

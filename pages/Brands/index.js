@@ -22,7 +22,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const BrandPage = () => {
   return (
     <>
-      <PageHead title="About Us 01 - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="About Us 01" />
       <Provider store={Store}>
         <Context>
           <HeaderStyleThree

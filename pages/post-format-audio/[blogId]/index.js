@@ -38,7 +38,7 @@ const SingleAudioFormat = () => {
 
   return (
     <>
-      <PageHead title="Post Format Audio - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Post Format Audio " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

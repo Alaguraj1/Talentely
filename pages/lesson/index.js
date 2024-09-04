@@ -27,7 +27,7 @@ const LessonLayout = () => {
   }, []);
   return (
     <>
-      <PageHead title="Lesson - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Lesson " />
 
       <div className="rbt-lesson-area bg-color-white">
         <div className="rbt-lesson-content-wrapper">

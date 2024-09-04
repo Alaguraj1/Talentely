@@ -18,7 +18,7 @@ import AccountInfo from "../../data/myAccount.json";
 const MyAccountPage = () => {
   return (
     <>
-      <PageHead title="My Account - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="My Account " />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />

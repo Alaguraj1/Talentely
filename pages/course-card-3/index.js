@@ -44,7 +44,7 @@ const CourseCardThreeLayout = () => {
 
   return (
     <>
-      <PageHead title="Course Five - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Five " />
 
       <Provider store={Store}>
         <Context>

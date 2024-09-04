@@ -32,7 +32,7 @@ const SingleProductPage = () => {
 
   return (
     <>
-      <PageHead title="Single Product - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Single Product " />
 
       <Provider store={Store}>
         <Context>

@@ -31,7 +31,7 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <PageHead title="About - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="About " />
 
       <Provider store={Store}>
         <Context>

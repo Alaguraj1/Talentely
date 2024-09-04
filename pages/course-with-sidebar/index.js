@@ -44,7 +44,7 @@ const CourseWithSidebarLayout = () => {
 
   return (
     <>
-      <PageHead title="Course With Sidebar - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course With Sidebar " />
 
       <Provider store={Store}>
         <Context>

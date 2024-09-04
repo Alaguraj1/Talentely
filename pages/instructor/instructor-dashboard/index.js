@@ -16,7 +16,7 @@ import { Provider } from "react-redux";
 const InstructorDashboard = () => {
   return (
     <>
-      <PageHead title="Instructor Dashboard - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Instructor Dashboard " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

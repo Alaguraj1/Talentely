@@ -25,7 +25,7 @@ import BackToTop from "@/pages/backToTop";
 const ServicePage = () => {
   return (
     <>
-      <PageHead title="Service Box - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Service Box " />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />

@@ -31,7 +31,7 @@ const TestimonialPage = () => {
   }, []);
   return (
     <>
-      <PageHead title="Testimonial - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Testimonial " />
 
       <Provider store={Store}>
         <Context>

@@ -17,7 +17,7 @@ import AdmissionContact from "@/components/Admission-Guide/AdmissionContact";
 const AdmissionGuidePage = () => {
   return (
     <>
-      <PageHead title="Admission Guide - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Admission Guide " />
 
       <Provider store={Store}>
         <Context>

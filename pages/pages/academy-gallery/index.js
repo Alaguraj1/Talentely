@@ -19,7 +19,7 @@ import AcademyGalleryThree from "@/components/Academy-Gallery/AcademyGallery-Thr
 const AcademyGallery = () => {
   return (
     <>
-      <PageHead title="Academy Gallery - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Academy Gallery " />
 
       <Provider store={Store}>
         <Context>

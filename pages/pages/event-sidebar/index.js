@@ -18,7 +18,7 @@ import EventSidebar from "@/components/Events/EventSidebar";
 const EventSiderbarPage = () => {
   return (
     <>
-      <PageHead title="Event Siderbar - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Event Siderbar " />
 
       <Provider store={Store}>
         <Context>

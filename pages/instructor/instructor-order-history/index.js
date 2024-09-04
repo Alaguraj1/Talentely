@@ -15,7 +15,7 @@ import { Provider } from "react-redux";
 const OrderHistoryPage = () => {
   return (
     <>
-      <PageHead title="Instructor Order History - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Instructor Order History " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

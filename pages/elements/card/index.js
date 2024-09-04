@@ -28,7 +28,7 @@ const CardPage = () => {
   }, []);
   return (
     <>
-      <PageHead title="Card - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Card " />
 
       <Provider store={Store}>
         <Context>

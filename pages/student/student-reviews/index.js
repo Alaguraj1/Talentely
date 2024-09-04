@@ -15,7 +15,7 @@ import { Provider } from "react-redux";
 const StudentReviews = () => {
   return (
     <>
-      <PageHead title="Student Reviews Course - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Student Reviews Course " />
 
       <Provider store={Store}>
         <Context>

@@ -16,7 +16,7 @@ import CreateCourse from "@/components/create-course/CreateCourse";
 const CreateCourseLayout = () => {
   return (
     <>
-      <PageHead title="Create  Course - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Create  Course " />
 
       <Provider store={Store}>
         <Context>

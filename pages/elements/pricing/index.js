@@ -18,7 +18,7 @@ import PricingFive from "@/components/Pricing/Pricing-Five";
 const PricingPage = () => {
   return (
     <>
-      <PageHead title="Pricing - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Pricing " />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />

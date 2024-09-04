@@ -16,7 +16,7 @@ import AccordionThree from "@/components/Accordions/Accordion-Three";
 const SubscriptionPage = () => {
   return (
     <>
-      <PageHead title="Subscription - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Subscription " />
 
       <Provider store={Store}>
         <Context>

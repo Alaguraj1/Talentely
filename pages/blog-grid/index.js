@@ -23,7 +23,7 @@ const BlogGridLayout = () => {  useEffect(() => {
   let getAllBlogs = JSON.parse(JSON.stringify(BlogData.blogGrid));
   return (
     <>
-      <PageHead title="Blog Grid - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog Grid " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

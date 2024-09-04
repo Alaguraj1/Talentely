@@ -38,7 +38,7 @@ const SinglePostFormatQuote = () => {
 
   return (
     <>
-      <PageHead title="Post Format Quote - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Post Format Quote " />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

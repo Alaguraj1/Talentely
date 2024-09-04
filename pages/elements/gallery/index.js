@@ -14,7 +14,7 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 const GalleryPage = () => {
   return (
     <>
-      <PageHead title="Gallery - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Gallery " />
 
       <Provider store={Store}>
         <Context>

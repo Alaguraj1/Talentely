@@ -28,7 +28,7 @@ const CallToActionPage = () => {
   }, []);
   return (
     <>
-      <PageHead title="Call To Action - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Call To Action " />
 
       <Provider store={Store}>
         <Context>
