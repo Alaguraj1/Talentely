@@ -7,7 +7,7 @@ const AccordionThree = () => {
         <div className="row g-5 align-items-center" key={index}>
           <div className="col-lg-10 offset-lg-1">
             <div className="rbt-accordion-style accordion">
-              <div className="section-title text-center mb--60">
+              <div className="section-title text-center mb--30">
                 <span className="subtitle bg-pink-opacity">{data.tag}</span>
                 <h2 className="title">{data.title}</h2>
                 {/* <p className="description has-medium-font-size mt--20">

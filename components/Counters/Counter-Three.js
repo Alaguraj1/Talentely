@@ -29,7 +29,7 @@ const CounterThree = () => {
           <div className="container" key={index}>
             <CounterHead
               bgClass="bg-primary-opacity"
-              mb="mb--60"
+              mb="mb--30"
               tag={data.tag}
               title={data.title}
               desc={data.desc}
@@ -77,7 +77,7 @@ const CounterThree = () => {
                           </span>{" "}
                           <span style={{fontSize:"22px"}}> {item.unit}</span>
                         </h3>
-                        <span className="subtitle">{item.text}</span>
+                        <span className="subtitle" dangerouslySetInnerHTML={{ __html: item.title }}></span>
                       </div>
                     </div>
                   </div>
