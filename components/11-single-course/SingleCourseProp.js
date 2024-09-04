@@ -12,17 +12,17 @@ export default function SingleCourseProp({ courseData, image, data }) {
           <div className="inner">
             <div className="thumbnail">
               <Image
-                src={data.container1?.img}
+                src={data.content1?.img}
                 width={604}
                 height={408}
                 alt="Image"
               />
             </div>
             <div className="content">
-              <h2 className="title ">{data.container1.title}</h2>
-              <p>{data.container1.desc}</p>
+              <h2 className="title ">{data.content1.title}</h2>
+              <p>{data.content1.desc}</p>
               <ul className="course-feature-list ">
-                {data?.container1?.imgs?.map((list, i) => (
+                {data?.content1?.imgs?.map((list, i) => (
                   <li key={i}>
                     <div className="flex flex-start">
                       <Image
@@ -51,15 +51,15 @@ export default function SingleCourseProp({ courseData, image, data }) {
           <div className="inner">
             <div className="thumbnail">
               <Image
-                src={data?.container2?.img}
+                src={data?.content2?.img}
                 width={558}
                 height={397}
                 alt="Image"
               />
             </div>
             <div className="content">
-              <h2 className="title">{data?.container2.title}</h2>
-              <p>{data?.container2.desc}</p>
+              <h2 className="title">{data?.content2.title}</h2>
+              <p>{data?.content2.desc}</p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function SingleCourseProp({ courseData, image, data }) {
           <div className="inner">
           <div className="h-20 w-full radius-20 thumbnail"><br></br>
               <Image
-                src={data?.container3?.img}
+                src={data?.content3?.img}
                 width={"100%"}
                 height={"100%"}
                 alt="Image"
@@ -79,10 +79,10 @@ export default function SingleCourseProp({ courseData, image, data }) {
             </div>
             {/* <CourseSlider {...data.container3} course={data.container3.img} /> */}
             <div className="content">
-              <h2 className="title">{data.container3.title}</h2>
-              <p>{data.container3.desc}</p>
+              <h2 className="title">{data.content3.title}</h2>
+              <p>{data.content3.desc}</p>
               <ul className="rbt-list-style-2-new flex-wrap g-1 mb-40">
-                {data.container3.subContent.map((innerData, i) => (
+                {data.content3.subContent.map((innerData, i) => (
                   <li key={i} className="flex ">
                     <i className="feather-check"></i>
                     <p>{innerData.text}</p>

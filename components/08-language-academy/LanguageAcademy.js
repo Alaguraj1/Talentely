@@ -217,7 +217,7 @@ const LanguageAcademy = () => {
   ];
 
   const courseData = {
-    container1: {
+    content1: {
       img: recognize1,
       title: `Turpis lectus risus odio ${"\n"}maximus,tortor ligula mi.`,
       desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -233,12 +233,12 @@ const LanguageAcademy = () => {
         containerLogo9,
       ],
     },
-    container2: {
+    content2: {
       img: recognize2,
       title: `Awards`,
       desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
     },
-    container3: {
+    content3: {
       img: recognize3,
       title: `Vestibulum hendrerit`,
       desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
