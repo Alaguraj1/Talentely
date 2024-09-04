@@ -10,9 +10,11 @@ const TeamThree = () => {
   return (
     <>
       <div className="container">
-        <TeamHead title="Team (Modern)." desc="Modern Circle Style." />
-
-        <div className="row row--15 mt_dec--30">
+        {/* <TeamHead title="Team (Modern)." desc="Modern Circle Style." /> */}
+        <h3 className="title text-center mb--30"  >
+          Recruit for a Wide Range of Skillsets
+        </h3>
+        <div className="row row--15">
           {TeamData &&
             TeamData.teamTwo.map((data, index) => (
               <div className="col-lg-4 col-md-6 col-12 mt--30" key={index}>
@@ -32,7 +34,10 @@ const TeamThree = () => {
                         />
                       </div>
                       <div className="content">
-                        <h4 style={{ textAlign: "center", fontSize: "24px" }} dangerouslySetInnerHTML={{ __html: item.name }}></h4>
+                        <h4
+                          style={{ textAlign: "center", fontSize: "24px" }}
+                          dangerouslySetInnerHTML={{ __html: item.name }}
+                        ></h4>
                         {/* <h6 className="subtitle theme-gradient">{item.type}</h6>
                         <span className="team-form">
                           <i className="feather-map-pin"></i>

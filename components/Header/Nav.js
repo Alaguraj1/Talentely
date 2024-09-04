@@ -474,32 +474,7 @@ const Nav = () => {
             </div>
           </div>
         </li> */}
-         <li className="with-megamenu has-menu-child-item position-static">
-          <Link className={` color-white`} onClick={() => {}} href="#">
-         Brands
-          </Link>
-        </li>
-         <li className="with-megamenu has-menu-child-item position-static">
-          <Link className={` color-white`} onClick={() => {}} href="#">
-           Investors
-          </Link>
-        </li>
-
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link className={` color-white`} onClick={() => {}} href="#">
-            Corporates
-          </Link>
-        </li>
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link className={` color-white`} onClick={() => {}} href="#">
-            Newsroom
-          </Link>
-        </li>
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link className={` color-white`} onClick={() => {}} href="#">
-            Careers
-          </Link>
-        </li>
+       
 
         <li className="with-megamenu has-menu-child-item position-static">
           <Link

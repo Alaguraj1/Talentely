@@ -11,20 +11,12 @@
           "link": "/About"
         },
         {
-          "text": "Brands",
-          "link": "/"
+          "text": "Why Talentely",
+          "link": "/why-talentely"
         },
         {
-          "text": "Investors",
-          "link": "/"
-        },
-        {
-          "text": "Corporates",
-          "link": "/"
-        },
-        {
-          "text": "Newsroom",
-          "link": "/"
+          "text": "Contact Us",
+          "link": "/contact"
         }
       ],
       "ourCompany": [

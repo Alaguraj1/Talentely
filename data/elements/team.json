@@ -174,89 +174,89 @@
 
   "teamTwo": [
     {
-      "img": "/images/team/team-01.jpg",
+      "img": "/images/contact/full-stack-java.jpg",
       "isLarge": true,
       "isActive": true,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/contact/full-stack-java.jpg",
           "name": "Full Stack Java/Python"
         }
       ]
     },
     {
-      "img": "/images/team/team-02.jpg",
+      "img": "/images/contact/mern-stack.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-02.jpg",
+          "img": "/images/contact/mern-stack.jpg",
           "name": "MERN Stack"
         }
       ]
     },
     {
-      "img": "/images/team/team-03.jpg",
+      "img": "/images/contact/mean-stack.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-03.jpg",
+          "img": "/images/contact/mean-stack.jpg",
           "name": "MEAN Stack"
         }
       ]
     },
     {
-      "img": "/images/team/team-04.jpg",
+      "img": "/images/contact/cyber-security.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-04.jpg",
+          "img": "/images/contact/cyber-security.jpg",
           "name": "Cyber Security"
         }
       ]
     },
     {
-      "img": "/images/team/team-05.jpg",
+      "img": "/images/contact/cloud-computing.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-05.jpg",
+          "img": "/images/contact/cloud-computing.jpg",
           "name": "Cloud Computing"
         }
       ]
     },
     {
-      "img": "/images/team/team-06.jpg",
+      "img": "/images/contact/ai&ml.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-06.jpg",
+          "img": "/images/contact/ai&ml.jpg",
           "name": "AI & ML"
         }
       ]
     },
     {
-      "img": "/images/team/team-07.jpg",
+      "img": "/images/contact/data-science.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-07.jpg",
+          "img": "/images/contact/data-science.jpg",
           "name": "Data Science"
         }
       ]
     },
     {
-      "img": "/images/team/team-08.jpg",
+      "img": "/images/contact/software-testing.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-08.jpg",
+          "img": "/images/contact/software-testing.jpg",
           "name": "Software Testing"
         }
       ]
@@ -268,95 +268,94 @@
       "details": [
         {
           "img": "/images/team/team-09.jpg",
-          "name": "Joo Bieden",
-          "type": "Mobile Development"
+          "name": "Mobile Development"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/devops.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/devops.jpg",
           "name": "DevOps"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/bi-visualization.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/bi-visualization.jpg",
           "name": "BI and Visualization"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/programming-frameworks.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/programming-frameworks.jpg",
           "name": "Programming & Frameworks"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/architecture-design-patterns.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/architecture-design-patterns.jpg",
           "name": "Architecture & Design Patterns"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/rpa.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/rpa.jpg",
           "name": "RPA"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/digital-marketing.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/digital-marketing.jpg",
           "name": "Digital Marketing"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/softskills.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/softskills.jpg",
           "name": "Softskills"
         }
       ]
     },
     {
-      "img": "/images/team/team-10.jpg",
+      "img": "/images/contact/finance.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-10.jpg",
+          "img": "/images/contact/finance.jpg",
           "name": "Finance"
         }
       ]

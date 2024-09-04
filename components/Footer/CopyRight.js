@@ -11,10 +11,8 @@ const CopyRight = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <p className="rbt-link-hover text-center text-lg-start">
                 Copyright © 2024{" "}
-                <Link href="https://themeforest.net/user/rbt-themes">
-                  Talently.
-                </Link>{" "}
-               Concept by Repute
+                <sapn style={{ color: "#4E4994", fontWeight: "bold" }}>Talently</sapn>.
+                Concept by Repute
               </p>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
