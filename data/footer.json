@@ -3,42 +3,42 @@
     {
       "description": " We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
       "phone": "(406) 555-0120",
-      "mail": "rainbow@example.com",
-      "address": "North America, USA",
+      "mail": "example@gmail.com",
+      "address": "Dui gravida ut viverra montes primis aliquam.",
       "usefulLinks": [
         {
-          "text": "Marketplace",
-          "link": "/12-marketplace"
+          "text": "Aboout Us",
+          "link": "/About"
         },
         {
-          "text": "kindergarten",
-          "link": "/04-kindergarten"
+          "text": "Brands",
+          "link": "/"
         },
         {
-          "text": "University",
-          "link": "/13-university-classic"
+          "text": "Investors",
+          "link": "/"
         },
         {
-          "text": "Classic Lms",
-          "link": "/05-classic-lms"
+          "text": "Corporates",
+          "link": "/"
         },
         {
-          "text": "FAQ",
-          "link": "/pages/faqs"
+          "text": "Newsroom",
+          "link": "/"
         }
       ],
       "ourCompany": [
         {
-          "text": "Contact Us",
-          "link": "/contact"
+          "text": "Careers",
+          "link": "/"
         },
         {
           "text": "Become Teacher",
-          "link": "/become-a-teacher"
+          "link": "/"
         },
         {
-          "text": "Blog",
-          "link": "/blog-list"
+          "text": "Blog & Media",
+          "link": "/"
         },
         {
           "text": "Instructor",
