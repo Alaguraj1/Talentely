@@ -109,7 +109,7 @@ const Nav = () => {
           </div> */}
         </li>
 
-        <li className="with-megamenu has-menu-child-item">
+        {/* <li className="with-megamenu has-menu-child-item">
           <Link
             className={`${
               activeMenuItem === "courses" ? "open" : ""
@@ -473,6 +473,32 @@ const Nav = () => {
               </div>
             </div>
           </div>
+        </li> */}
+         <li className="with-megamenu has-menu-child-item position-static">
+          <Link className={` color-white`} onClick={() => {}} href="#">
+         Brands
+          </Link>
+        </li>
+         <li className="with-megamenu has-menu-child-item position-static">
+          <Link className={` color-white`} onClick={() => {}} href="#">
+           Investors
+          </Link>
+        </li>
+
+        <li className="with-megamenu has-menu-child-item position-static">
+          <Link className={` color-white`} onClick={() => {}} href="#">
+            Corporates
+          </Link>
+        </li>
+        <li className="with-megamenu has-menu-child-item position-static">
+          <Link className={` color-white`} onClick={() => {}} href="#">
+            Newsroom
+          </Link>
+        </li>
+        <li className="with-megamenu has-menu-child-item position-static">
+          <Link className={` color-white`} onClick={() => {}} href="#">
+            Careers
+          </Link>
         </li>
 
         <li className="with-megamenu has-menu-child-item position-static">
@@ -485,12 +511,8 @@ const Nav = () => {
           </Link>
         </li>
         <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            className={` color-white`}
-            onClick={() => {}}
-            href="contact"
-          >
-           Contact Us
+          <Link className={` color-white`} onClick={() => {}} href="contact">
+            Contact Us
           </Link>
         </li>
       </ul>

@@ -45,18 +45,35 @@ const ContactForm = ({ gap }) => {
                   </div>
                   <div className="form-group">
                     <input
-                      name="contact-phone"
-                      type="email"
-                      placeholder="Email"
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="Designation"
                     />
                     <span className="focus-border"></span>
                   </div>
                   <div className="form-group">
                     <input
+                      name="contact-name"
+                      id="contact-name"
                       type="text"
-                      id="subject"
-                      name="subject"
-                      placeholder="Your Subject"
+                      placeholder="Company Name"
+                    />
+                    <span className="focus-border"></span>
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="contact-phone"
+                      type="email"
+                      placeholder="Work Email"
+                    />
+                    <span className="focus-border"></span>
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="contact-phone"
+                      type="number"
+                      placeholder="Mobile Number"
                     />
                     <span className="focus-border"></span>
                   </div>
@@ -64,7 +81,7 @@ const ContactForm = ({ gap }) => {
                     <textarea
                       name="contact-message"
                       id="contact-message"
-                      placeholder="Message"
+                      placeholder="Share your Requirements"
                     ></textarea>
                     <span className="focus-border"></span>
                   </div>
@@ -76,7 +93,7 @@ const ContactForm = ({ gap }) => {
                       className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">GET IT NOW</span>
+                        <span className="btn-text">Hire Now</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>
