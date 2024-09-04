@@ -50,9 +50,9 @@ const AboutUsPage = () => {
             </ParallaxProvider>
           </div>
 
-          <div>
+          <div className="rbt-brand-area bg-color-extra2  rbt-section-gap">
             <div className="container">
-              <div className="row mt--60">
+              <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center">
                     <span className="subtitle bg-primary-opacity">
