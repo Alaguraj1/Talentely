@@ -24,31 +24,31 @@ const ContactForm = ({ gap }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('formData', formData)
-    try {
-      const response = await fetch("https://formspree.io/f/xkgwerqo", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+    // try {
+    //   const response = await fetch("https://formspree.io/f/xkgwerqo", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(formData),
+    //   });
 
-      if (response.ok) {
-        setStatus("Success! Your message has been sent.");
-        setFormData({
-          name: "",
-          designation: "",
-          companyName: "",
-          workEmail: "",
-          mobileNumber: "",
-          message: "",
-        });
-      } else {
-        setStatus("Failed to send message.");
-      }
-    } catch (error) {
-      setStatus("An error occurred.");
-    }
+    //   if (response.ok) {
+    //     setStatus("Success! Your message has been sent.");
+    //     setFormData({
+    //       name: "",
+    //       designation: "",
+    //       companyName: "",
+    //       workEmail: "",
+    //       mobileNumber: "",
+    //       message: "",
+    //     });
+    //   } else {
+    //     setStatus("Failed to send message.");
+    //   }
+    // } catch (error) {
+    //   setStatus("An error occurred.");
+    // }
   };
 
   return (
