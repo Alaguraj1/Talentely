@@ -18,15 +18,8 @@ const AdmissionArea = () => {
             alignItems: "center",
           }}
         >
-          <div
-            className="video-popup-wrapper"
-            style={{ height: "250px", width: "250px !important" }}
-          >
-            <Image
-              className="w-100 rbt-radius"
-              src={videoImg}
-              alt="Video Images"
-            />
+          <div>
+            <Image src={videoImg} width={250} height={250} alt="Video Images" />
           </div>
         </div>
         <div className="col-lg-6">

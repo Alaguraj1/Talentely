@@ -58,7 +58,7 @@ const HeaderTen = ({
       >
         <div className={`${container}`}>
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
-            <div className="header-left d-block d-xl-none">
+            {/* <div className="header-left d-block d-xl-none">
               <div className="header-info">
                 <ul className="quick-access">
                   <li className="access-icon">
@@ -80,7 +80,7 @@ const HeaderTen = ({
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="header-center d-block d-xl-none">
               <div className="logo">
@@ -111,7 +111,7 @@ const HeaderTen = ({
             </div>
 
             <div className="header-right">
-              <div className="d-block d-xl-none">
+              {/* <div className="d-block d-xl-none">
                 <ul className="quick-access">
                   <li className="access-icon rbt-mini-cart">
                     <Link
@@ -130,7 +130,7 @@ const HeaderTen = ({
                     <User />
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               <div className="mobile-menu-bar d-block d-xl-none">
                 <div className="hamberger">
