@@ -10,6 +10,9 @@ import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import FooterThree from "@/components/Footer/Footer-Three";
 import OnlineCoursePage from "../10-online-course";
+import HeaderStyleThree from "@/components/Header/HeaderStyle-Three";
+import LanguageAcademy from "@/components/08-language-academy/LanguageAcademy";
+import BackToTop from "../backToTop";
 
 const Home = () => {
   return (
@@ -19,11 +22,16 @@ const Home = () => {
       <Provider store={Store}>
         <Context>
           <MobileMenu />
-          {/* <HeaderStyleTen headerSticky="rbt-sticky" headerType="" /> */}
-          {/* <MainDemo /> */}
-          <OnlineCoursePage />
+          <HeaderStyleThree
+            headerType="rbt-transparent-header"
+            headerSticky="rbt-sticky"
+          />
           {/* <Cart /> */}
 
+          {/* <OnlineCourse /> */}
+          <LanguageAcademy />
+
+          <BackToTop />
           <Separator />
           <FooterThree />
         </Context>

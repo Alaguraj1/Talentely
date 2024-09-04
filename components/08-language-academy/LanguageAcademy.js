@@ -161,7 +161,6 @@ const LanguageAcademy = () => {
         aluminiLogo3,
         aluminiLogo4,
         aluminiLogo5,
-   
       ],
     },
   ];
@@ -504,7 +503,7 @@ const LanguageAcademy = () => {
                     VULPUTATE
                   </span>
                   <h2 className="title color-white">
-                  Recogniions and Accreditations
+                    Recogniions and Accreditations
                   </h2>
                   {/* <p className="description has-medium-font-size mt--20 mb--0">
                     Language Academic?
@@ -539,14 +538,18 @@ const LanguageAcademy = () => {
       </div>
 
       <div className=" bg-grey rbt-section-gap-own">
-        <div className="row  ">
-          <div className="col-lg-12">
-            <div className="section-title text-center">
-              <span className="subtitle bg-primary-opacity ">duis lectus</span>
-              <h2 className="title">Our Academic Partners</h2>
-              {/* <p className="description has-medium-font-size mt--20 mb--0">
+        <div className="container">
+          <div className="row  ">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <span className="subtitle bg-primary-opacity ">
+                  duis lectus
+                </span>
+                <h2 className="title">Our Academic Partners</h2>
+                {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
+              </div>
             </div>
           </div>
         </div>
