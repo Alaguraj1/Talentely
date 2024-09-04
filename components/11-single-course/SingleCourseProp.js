@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import CourseSlider from "./CourseSlider";
 
-export default function SingleCourseProp({ courseData, image, data }) {
+export default function SingleCourseProp({data }) {
   console.log("data: ", data);
   return (
     <>
