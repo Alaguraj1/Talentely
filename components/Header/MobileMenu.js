@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/header-logo.png";
 import logoLight from "../../public/images/dark/logo/logo-light.png";
 
 import Nav from "./Nav";
@@ -15,7 +15,7 @@ const MobileMenu = () => {
       <div className={`popup-mobile-menu ${mobile ? "" : "active"}`}>
         <div className="inner-wrapper">
           <div className="inner-top">
-            <div className="content">
+            <div className="content mb--30">
               <div className="logo">
                 <Link href="/">
                   {isLightTheme ? (
@@ -46,9 +46,9 @@ const MobileMenu = () => {
                 </button>
               </div>
             </div>
-            <p className="description">
+            {/* <p className="description">
               Histudy is a education website template. You can customize all.
-            </p>
+            </p> */}
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
                 <Link href="mailto:hello@example.com">

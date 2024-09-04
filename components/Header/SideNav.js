@@ -52,7 +52,7 @@ const SideNav = () => {
       <div className={`side-menu ${!mobile ? "side-menu-active" : ""}`}>
         <div className="inner-wrapper side-menu-wrapper">
           <div className="inner-top">
-            <div className="content">
+            <div className="content mb--30">
               <div className="logo">
                 <Link href="/">
                   {isLightTheme ? (
@@ -83,9 +83,9 @@ const SideNav = () => {
                 </button>
               </div>
             </div>
-            <p className="description">
+            {/* <p className="description">
               Histudy is a education website template. You can customize all.
-            </p>
+            </p> */}
 
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
