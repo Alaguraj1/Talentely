@@ -227,16 +227,17 @@ const LanguageAcademy = () => {
                   <div className="inner">
                     <div className="section-title text-start">
                       <span className="subtitle bg-primary-opacity">
-                        MORBI CONSEQUAT
+                        Transform Your Hiring Process with Talentely
                       </span>
                     </div>
-                    <h3 className="title">
-                      Unleash Your
+
+                    <h3 className="title" style={{fontSize: "38px"}}>
+                      Access Top Talent,
                       <br />
-                      <span className="theme-gradient">Curiosity ,</span>
-                      Unleash
+                      <span className="theme-gradient"> No Costs,</span>
+                      and Accelerate
                       <br />
-                      <span> Your Potential</span>
+                      <span> Recruitment Cycles</span>
                     </h3>
                     <div className="rbt-like-total">
                       <div className="profile-share">

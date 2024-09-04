@@ -35,11 +35,7 @@ const Nav = () => {
             <i className="feather-chevron-down"></i>
           </Link> */}
 
-          <Link
-            className={` color-white`}
-            onClick={() =>{}}
-            href="About"
-          >
+          <Link className={` color-white`} onClick={() => {}} href="About">
             About us
             {/* <i className="feather-chevron-down"></i> */}
           </Link>
@@ -115,7 +111,9 @@ const Nav = () => {
 
         <li className="with-megamenu has-menu-child-item">
           <Link
-            className={`${activeMenuItem === "courses" ? "open" : ""} color-white`}
+            className={`${
+              activeMenuItem === "courses" ? "open" : ""
+            } color-white`}
             href="Brands"
             onClick={() => toggleMenuItem("courses")}
           >
@@ -194,7 +192,9 @@ const Nav = () => {
         </li>
         <li className="has-dropdown has-menu-child-item">
           <Link
-            className={`${activeMenuItem === "dashboard" ? "open" : ""} color-white`}
+            className={`${
+              activeMenuItem === "dashboard" ? "open" : ""
+            } color-white`}
             href="Investors"
             onClick={() => toggleMenuItem("dashboard")}
           >
@@ -234,7 +234,9 @@ const Nav = () => {
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="Coporate"
-            className={`${activeMenuItem === "pages" ? "open" : ""} color-white`}
+            className={`${
+              activeMenuItem === "pages" ? "open" : ""
+            } color-white`}
             onClick={() => toggleMenuItem("pages")}
           >
             Coporate
@@ -309,7 +311,9 @@ const Nav = () => {
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="Newsroom"
-            className={`${activeMenuItem === "elements" ? "open" : ""} color-white`}
+            className={`${
+              activeMenuItem === "elements" ? "open" : ""
+            } color-white`}
             onClick={() => toggleMenuItem("elements")}
           >
             Newsroom
@@ -469,6 +473,25 @@ const Nav = () => {
               </div>
             </div>
           </div>
+        </li>
+
+        <li className="with-megamenu has-menu-child-item position-static">
+          <Link
+            className={` color-white`}
+            onClick={() => {}}
+            href="why-talentely"
+          >
+            Why Talentely
+          </Link>
+        </li>
+        <li className="with-megamenu has-menu-child-item position-static">
+          <Link
+            className={` color-white`}
+            onClick={() => {}}
+            href="contact"
+          >
+           Contact Us
+          </Link>
         </li>
       </ul>
     </nav>

@@ -365,12 +365,12 @@
 
   "whyTalentely": [
     {
-      "img": "/images/team/team-01.jpg",
+      "img": "/images/why-talentely/efficiency-speed.jpg",
       "isLarge": true,
       "isActive": true,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/why-talentely/efficiency-speed.jpg",
           "title": "Efficiency and Speed",
           "subtitle": "Quick Turnaround",
           "des": "24-Hour Profile Delivery"
@@ -378,12 +378,12 @@
       ]
     },
     {
-      "img": "/images/team/team-02.jpg",
+      "img": "/images/why-talentely/quality-precision.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/why-talentely/quality-precision.jpg",
           "title": "Quality and Precision",
           "subtitle": "AI-Driven Shortlisting",
           "des": "360º Profiling"
@@ -391,12 +391,12 @@
       ]
     },
     {
-      "img": "/images/team/team-03.jpg",
+      "img": "/images/why-talentely/cost-effectiveness.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/why-talentely/cost-effectiveness.jpg",
           "title": "Cost-Effectiveness",
           "subtitle": "Zero Hiring Fees",
           "des": "Reduced Training Costs"
@@ -404,12 +404,12 @@
       ]
     },
     {
-      "img": "/images/team/team-04.jpg",
+      "img": "/images/why-talentely/access-diverse-talent.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/why-talentely/access-diverse-talent.jpg",
           "title": "Access to Diverse Talent",
           "subtitle": "Wide Talent Pool",
           "des": "Specialized Skills"
@@ -417,12 +417,12 @@
       ]
     },
     {
-      "img": "/images/team/team-05.jpg",
+      "img": "/images/why-talentely/seamless-integration.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
+          "img": "/images/why-talentely/seamless-integration.jpg",
           "title": "Seamless Integration",
           "subtitle": "Immediate Onboarding",
           "des": "Ongoing Support"

@@ -8,6 +8,11 @@ import aboutImg7 from "../../public/images/about/about-07.jpg";
 import aboutImg8 from "../../public/images/about/about-08.jpg";
 import aboutImg9 from "../../public/images/about/about-09.jpg";
 
+import AboutImage1 from "../../public/images/about/img-1.jpg";
+import AboutImage2 from "../../public/images/about/img-2.jpg";
+import AboutImage3 from "../../public/images/about/img-3.jpg";
+
+
 const About = () => {
   const { ref: ref1, style: style1 } = useParallax({
     translateY: [0, -20],
@@ -28,7 +33,7 @@ const About = () => {
             <div className="thumbnail-wrapper">
               <div className={`thumbnail image-1`} ref={ref1} style={style1}>
                 <Image
-                  src={aboutImg7}
+                  src={AboutImage1}
                   width={366}
                   height={490}
                   alt="Education Images"
@@ -36,7 +41,7 @@ const About = () => {
               </div>
               <div className={`thumbnail image-2`} ref={ref2} style={style2}>
                 <Image
-                  src={aboutImg9}
+                  src={AboutImage2}
                   width={308}
                   height={250}
                   alt="Education Images"
@@ -44,7 +49,7 @@ const About = () => {
               </div>
               <div className={`thumbnail image-3`} ref={ref3} style={style3}>
                 <Image
-                  src={aboutImg8}
+                  src={AboutImage3}
                   width={405}
                   height={490}
                   alt="Education Images"
