@@ -5,22 +5,22 @@ import CallToActionData from "../../data/elements/calltoaction.json";
 const CallToActionSix = () => {
   return (
     <div className="container">
-      {CallToActionData &&
-        CallToActionData.collectionSix.map((data, index) => (
+      {/* {CallToActionData &&
+        CallToActionData.collectionSix.map((data, index) => ( */}
           <div
             className="row g-5 align-items-center content-wrapper"
-            key={index}
+            // key={index}
           >
             <div className="col-xxl-3 col-xl-3 col-lg-6">
               <div className="inner">
                 <div className="content text-start">
-                  <h2 className="title color-white mb--0">{"Hire From Us"}</h2>
+                  <h2 className="title color-white mb--0">Hire From Us</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="inner-content text-start">
-                <p className="color-white">{"Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps"}</p>
+                <p className="color-white">Hire Now: 4500+ Trained Developers Available</p>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-6">
@@ -39,7 +39,7 @@ const CallToActionSix = () => {
               </div>
             </div>
           </div>
-        ))}
+        {/* ))} */}
     </div>
   );
 };
