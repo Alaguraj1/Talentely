@@ -11,11 +11,7 @@ const TeamNine = () => {
   return (
     <>
       <div className="container">
-        <TeamHead
-          title="Team (Carousel Style)."
-          desc="Awesome Carousel Style."
-        />
-
+        <h2 className="title text-center mb--20">Benefits</h2>
         <div className="row">
           <div className="col-lg-12">
             <Swiper
@@ -44,7 +40,7 @@ const TeamNine = () => {
               }}
             >
               {TeamData &&
-                TeamData.team.slice(0, 7).map((data, index) => (
+                TeamData.whyTalentely.map((data, index) => (
                   <SwiperSlide className="swiper-wrapper mb-0" key={index}>
                     {data.details.map((item, innerIndex) => (
                       <div className="swiper-slide" key={innerIndex}>
@@ -60,15 +56,17 @@ const TeamNine = () => {
                               />
                             </div>
                             <div className="content">
-                              <h2 className="title">{item.name}</h2>
+                              <h3
+                                className="title"
+                                style={{ fontSize: "24px" }}
+                              >
+                                {item.title}
+                              </h3>
                               <h6 className="subtitle theme-gradient">
-                                {item.type}
+                                {item.subtitle}
                               </h6>
                               <span className="team-form">
-                                <i className="feather-map-pin"></i>
-                                <span className="location">
-                                  {item.location}
-                                </span>
+                                <span className="location">{item.des}</span>
                               </span>
                             </div>
                           </div>

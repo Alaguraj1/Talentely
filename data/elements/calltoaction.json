@@ -57,5 +57,11 @@
       "title": "Online Courses",
       "desc": "Join our team! Discover the future of Talent acquisition with Talentely."
     }
+  ],
+  "WhyTalentelyCollection": [
+    {
+      "title": "Hire Now:",
+      "desc": " 4500+ Trained Developers Available"
+    }
   ]
 }
