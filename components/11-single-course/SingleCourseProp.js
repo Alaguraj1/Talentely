@@ -19,8 +19,8 @@ export default function SingleCourseProp({ courseData, image, data }) {
               />
             </div>
             <div className="content">
-              <h2 className="title ">{data.content1.title}</h2>
-              <p>{data.content1.desc}</p>
+              <h2 className="title ">{data?.content1?.title}</h2>
+              <p>{data?.content1?.desc}</p>
               <ul className="course-feature-list ">
                 {data?.content1?.imgs?.map((list, i) => (
                   <li key={i}>

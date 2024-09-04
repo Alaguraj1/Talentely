@@ -169,51 +169,51 @@ const LanguageAcademy = () => {
     brandLogo12,
   ];
 
-  const courseData = {
-    content1: {
-      img: recognize1,
-      title: `Turpis lectus risus odio ${"\n"}maximus,tortor ligula mi.`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      imgs: [
-        containerLogo1,
-        containerLogo2,
-        containerLogo3,
-        containerLogo4,
-        containerLogo5,
-        containerLogo6,
-        containerLogo7,
-        containerLogo8,
-        containerLogo9,
-      ],
-    },
-    content2: {
-      img: recognize2,
-      title: `Awards`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-    },
-    content3: {
-      img: recognize3,
-      title: `Vestibulum hendrerit`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      subContent: [
-        {
-          text: "Ecommerce Website",
-        },
-        {
-          text: "Travel Agency",
-        },
-        {
-          text: "Shopping Cart",
-        },
-        {
-          text: "News Portal",
-        },
-        {
-          text: "Education Management",
-        },
-      ],
-    },
-  };
+  // const courseData = {
+  //   content1: {
+  //     img: recognize1,
+  //     title: `Turpis lectus risus odio ${"\n"}maximus,tortor ligula mi.`,
+  //     desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+  //     imgs: [
+  //       containerLogo1,
+  //       containerLogo2,
+  //       containerLogo3,
+  //       containerLogo4,
+  //       containerLogo5,
+  //       containerLogo6,
+  //       containerLogo7,
+  //       containerLogo8,
+  //       containerLogo9,
+  //     ],
+  //   },
+  //   content2: {
+  //     img: recognize2,
+  //     title: `Awards`,
+  //     desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+  //   },
+  //   content3: {
+  //     img: recognize3,
+  //     title: `Vestibulum hendrerit`,
+  //     desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+  //     subContent: [
+  //       {
+  //         text: "Ecommerce Website",
+  //       },
+  //       {
+  //         text: "Travel Agency",
+  //       },
+  //       {
+  //         text: "Shopping Cart",
+  //       },
+  //       {
+  //         text: "News Portal",
+  //       },
+  //       {
+  //         text: "Education Management",
+  //       },
+  //     ],
+  //   },
+  // };
 
   const academic = [aca_1, aca_2, aca_3, aca_4];
   return (
@@ -428,13 +428,13 @@ const LanguageAcademy = () => {
                   </Link>
                 </div>
 
-                <div className="row g-5">
+                {/* <div className="row g-5">
                   <SingleCourseProp
                     courseData={SingleCourseData.certificate}
                     image={true}
                     data={courseData}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
